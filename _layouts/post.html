@@ -1,0 +1,16 @@
+---
+layout: posting
+---
+
+<article class="post">
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <ion-note color="secondary">
+    Post on {{ page.date | date_to_string }}
+  </ion-note>
+
+  {% include disqus.html %}
+</article>
