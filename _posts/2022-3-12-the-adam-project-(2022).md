@@ -10,7 +10,7 @@ res: HD
 color: primary
 tgl: 12 March 2022
 midb: '6,7'
-tags: Action, Adventure, Comedy, Sci-Fi
+tags: [2022]
 categories: [Action, Adventure, Comedy, Sci-Fi]
 director: Shawn Levy
 ---

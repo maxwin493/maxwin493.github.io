@@ -11,7 +11,7 @@ res: HD
 color: primary
 tgl: 17 Apr 2022
 midb: '6,4'
-tags: Action, Adventure, Fantasy
+tags: [2022]
 categories: [Action, Adventure, Fantasy]
 director: David Yates
 actor: Eddie Redmayne, Jude Law, Ezra Miller

@@ -11,7 +11,7 @@ res: CAM
 color: danger
 tgl: 29 Mey 2022
 midb: '8,7'
-tags: Action, Drama
+tags: [2022]
 categories: [Action, Drama]
 director: Joseph Kosinski
 actor: Tom Cruise

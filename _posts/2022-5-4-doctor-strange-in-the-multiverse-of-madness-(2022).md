@@ -11,7 +11,7 @@ res: CAM
 color: danger
 tgl: 8 Mey 2022
 midb: '7,3'
-tags: Action, Adventure, Fantasy, Horror, Sci-Fi
+tags: [2022]
 categories: [Action, Adventure, Fantasy, Horror, Sci-Fi]
 director: Sam Raimi
 actor: Benedict Cumberbatch

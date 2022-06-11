@@ -11,7 +11,7 @@ res: HD
 color: primary
 tgl: 30 sep 2021
 midb: '5,9'
-tags: Action, Adventure, Sci-Fi, Thriller
+tags: [2021]
 categories: [Action, Adventure, Sci-Fi, Thriller]
 director: Andy Serkis
 ---

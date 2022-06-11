@@ -11,7 +11,7 @@ res: HD
 color: primary
 tgl: 28 July 2021
 midb: '6,6'
-tags: Action, Adventure, Comedy, Fantasy
+tags: [2021]
 categories: [Action, Adventure, Comedy, Fantasy]
 director: Jaume Collet-Serra
 aktor: Dwayne Johnson, Emily Blunt, Edgar Ramírez

@@ -11,7 +11,7 @@ res: HD
 color: primary
 tgl: 02 Nov 2018
 midb: '5,2'
-tags: Action, Adventure
+tags: [2018]
 categories: [Action, Adventure]
 director: Don Michael Paul
 actor: Lucy Aarden, Nicholas Aaron, Jasette Amos

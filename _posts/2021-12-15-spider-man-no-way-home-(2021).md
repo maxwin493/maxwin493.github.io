@@ -11,7 +11,7 @@ res: HD
 color: primary
 tgl: 19 Des 2021
 midb: '8,3'
-tags: Action, Adventure, Fantasy, Sci-Fi
+tags: [2021]
 categories: [Action, Adventure, Fantasy, Sci-Fi]
 director: Jon Watts
 ---

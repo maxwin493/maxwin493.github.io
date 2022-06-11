@@ -11,7 +11,7 @@ res: HD
 color: primary
 tgl: 5 Sep 2021
 midb: '7,4'
-tags: Action, Adventure, Fantasy, Sci-Fi
+tags: [2021]
 categories: [Action, Adventure, Fantasy, Sci-Fi]
 director: Destin Daniel Cretton
 ---

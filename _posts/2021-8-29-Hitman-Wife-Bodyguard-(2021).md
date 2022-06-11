@@ -11,7 +11,7 @@ res: HD
 color: primary
 tgl: 23 Jun 2021
 midb: '6,1'
-tags: Action, Comedy, Crime
+tags: [2021]
 categories: [Action, Comedy, Crime]
 director: Patrick Hughes
 actor: 'Ryan Reynolds, Samuel L. Jackson, Salma Hayek'
