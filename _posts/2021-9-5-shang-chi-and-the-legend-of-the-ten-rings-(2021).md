@@ -2,7 +2,7 @@
 layout: post
 title: Shang-Chi and the Legend of the Ten Rings (2021)
 dur: 
-img: https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg
+img: https://androidbutut.my.id/shang-chi/img/shang-chi.jpg
 cover1: https://dash.fembed.com/asset/userdata/404660/poster/3/kq/3kqe4xum10ry6-g-.png?v=1654179893
 movie1: https://short.ink/nZ1zEGb3-
 movie: https://daffa-adr.my.id/v/3kqe4xum10ry6-g-

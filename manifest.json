@@ -3,7 +3,7 @@
   "name": "DAFFtube",
   "background_color": "dark light",
   "theme_color": "dark light",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "description": "Nonton Film Streaming",
   "icons": [{

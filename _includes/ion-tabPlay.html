@@ -4,62 +4,40 @@
             <ion-toolbar>
     {% include iframe.html %}
             </ion-toolbar>
+        <ion-segment value="2022">
+          <ion-segment-button class="tabsegment" value="2022" onclick="openTaun(event, '2022')">
+            <ion-label>2022</ion-label>
+          </ion-segment-button>
+          <ion-segment-button class="tabsegment" value="2021" onclick="openTaun(event, '2021')">
+            <ion-label>2021</ion-label>
+          </ion-segment-button>
+          <ion-segment-button class="tabsegment" value="2020" onclick="openTaun(event, '2020')">
+            <ion-label>2019</ion-label>
+          </ion-segment-button>
+        </ion-segment>
           </ion-header>
-
-          <ion-content fullscreen scroll-y="true">
-        {% for post in site.data.2022 %}
-        <ion-item>
-            <ion-avatar slot="start">
-              <img src="{{post.img}}" />
-            </ion-avatar>
-            <ion-label>
-              <h3 color="dark">{{post.title}}</h3>
-              <p>{{post.categories}}</p>
-            </ion-label>
-<ion-button color="danger" href="javascript: history.back()" onclick="playMe{{forloop.index}}(false)" id="stopBtn{{forloop.index}}" style="display:none">
-  <ion-icon slot="start" name="stop"></ion-icon>
-  <ion-label>Stop</ion-label>
-</ion-button>
-<ion-buttons>
-<ion-button color="success" href="{{post.movie}}" target="iframe" onclick="playMe{{forloop.index}}(true)" id="playBtn{{forloop.index}}">
-  <ion-icon slot="start" name="play"></ion-icon>
-  <ion-label>Play</ion-label>
-</ion-button>
-<ion-buttons>
-</ion-item>
 <script>
- function playMe{{forloop.index}}(play) {
-        var playBtn{{forloop.index}} = document.getElementById('playBtn{{forloop.index}}')
-        var stopBtn{{forloop.index}} = document.getElementById('stopBtn{{forloop.index}}')
-        var marq = document.getElementById('marq')
-
-        if(play) {
-            stopBtn{{forloop.index}}.style.display = "block"
-            playBtn{{forloop.index}}.style.display = "none"
-            marq.style.display = "block"
-        } else {
-            playBtn{{forloop.index}}.style.display = "none"
-            stopBtn{{forloop.index}}.style.display = "block"
-            marq.style.display = "none"
-        }
-    }
-
-function playMe{{forloop.index}}(play) {
-    var playBtn{{forloop.index}} = document.getElementById('playBtn{{forloop.index}}')
-    var stopBtn{{forloop.index}} = document.getElementById('stopBtn{{forloop.index}}')
-    var marq = document.getElementById('marq')
-
-    if(play) {
-        stopBtn{{forloop.index}}.style.display = "block"
-        playBtn{{forloop.index}}.style.display = "none"
-        marq.style.display = "none"
-    } else {
-        stopBtn{{forloop.index}}.style.display = "none"
-        playBtn{{forloop.index}}.style.display = "block"
-        marq.style.display = "block"
-    }
+function openTaun(evt, taunName) {
+  var i, segment, tabsegment;
+  segment = document.getElementsByClassName("segment");
+  for (i = 0; i < segment.length; i++) {
+    segment[i].style.display = "none";
+  }
+  tabsegment = document.getElementsByClassName("tabsegment");
+  for (i = 0; i < tabsegment.length; i++) {
+    tabsegment[i].className = tabsegment[i].className.replace(" active", "");
+  }
+  document.getElementById(taunName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
 </script>
-        {% endfor %}
+          <ion-content id="2022" fullscreen scroll-y="true" class="segment">
+    {% include 2022.html %}
+          </ion-content>
+          <ion-content id="2021" fullscreen scroll-y="true" class="segment" style="display:none">
+    {% include 2021.html %}
+          </ion-content>
+          <ion-content id="2020" fullscreen scroll-y="true" class="segment" style="display:none">
+    {% include 2020.html %}
           </ion-content>
         </ion-tab>
