@@ -7,13 +7,13 @@
   "display": "standalone",
   "description": "Nonton Film Streaming",
   "icons": [{
-    "src": "/favicon/maskable_icon.png",
+    "src": "/assets/favicon/maskable_icon.png",
     "sizes":"any",
     "type": "image/png",
     "purpose": "any maskable"
     },
     {
-    "src": "/favicon/maskable_icon_x512.png",
+    "src": "/assets/favicon/maskable_icon_x512.png",
     "sizes":"512x512",
     "type": "image/png",
     "purpose": "any maskable"
