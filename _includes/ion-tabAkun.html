@@ -26,7 +26,7 @@
 <ion-input type="password" name="pswrd"/>
 </ion-item>
 <ion-toolbar class="no-padding">
-<div class="flex">
+<div class="">
 <input class="btn-login" type="button" onclick="check(this.form)" value="Login"/>
 <input class="btn-cancel" type="reset" onclick="history.back()" value="Cancel"/>
 </div>
@@ -51,8 +51,10 @@
     box-shadow: 0px 0px 10px -3px #333d;
     background-color: #3880ff;
     color: #fff;
+    float: right;
 }
 .btn-cancel{
+    display: none;
     padding: 10px 20px;
     margin: 20px;
     border-radius: 25px;
