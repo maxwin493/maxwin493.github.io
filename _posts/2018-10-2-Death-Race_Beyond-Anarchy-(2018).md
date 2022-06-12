@@ -7,7 +7,7 @@ cover1: https://dash.fembed.com/asset/userdata/404660/poster/w/0d/w0dxq-iny0738x
 movie1: https://androidbutut.my.id/death-race-2018/
 movie: https://daffa-adr.my.id/v/w0dxq-iny0738xm1
 dl: https://daffa-adr.my.id/f/w0dxq-iny0738xm1
-res: HD
+res: HD1080
 color: primary
 tgl: 02 Nov 2018
 midb: '5,2'

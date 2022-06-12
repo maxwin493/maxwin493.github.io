@@ -7,7 +7,7 @@ cover1: https://dash.fembed.com/asset/userdata/404660/poster/k/3n/k3n0lrb3xdjkz7
 movie1: https://androidbutut.my.id/sonic-the-hedgehog-2/
 movie: https://daffa-adr.my.id/v/k3n0lrb3xdjkz7lw
 dl: https://daffa-adr.my.id/f/k3n0lrb3xdjkz7lw
-res: HD
+res: HD1080
 color: primary
 tgl: 30 march 2022
 midb: '6,6'

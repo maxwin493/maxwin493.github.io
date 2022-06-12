@@ -7,7 +7,7 @@ cover1: https://dash.fembed.com/asset/userdata/404660/poster/x/m0/xm08q-a57xlqr1
 movie1: https://androidbutut.my.id/the-hitmans-wifes-bodyguard-(2021)/
 movie: https://daffa-adr.my.id/v/xm08q-a57xlqr1pw
 dl: https://daffa-adr.my.id/f/xm08q-a57xlqr1pw
-res: HD
+res: HD1080
 color: primary
 tgl: 23 Jun 2021
 midb: '6,1'

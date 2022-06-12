@@ -7,7 +7,7 @@ cover1: https://dash.fembed.com/asset/userdata/404660/poster/n/z7/nz71lkh2nzy-3w
 movie1: https://short.ink/RRQriS_-b
 movie: https://daffa-adr.my.id/v/nz71lkh2nzy-3wr0
 dl: https://daffa-adr.my.id/f/nz71lkh2nzy-3wr0
-res: CAM
+res: HD1080
 color: danger
 tgl: 29 Mey 2022
 midb: '8,7'

@@ -7,7 +7,7 @@ cover1: https://dash.fembed.com/asset/userdata/404660/poster/3/kq/3kqe4xum10ry6-
 movie1: https://short.ink/nZ1zEGb3-
 movie: https://daffa-adr.my.id/v/3kqe4xum10ry6-g-
 dl: https://daffa-adr.my.id/f/3kqe4xum10ry6-g-
-res: HD
+res: HD1080
 color: primary
 tgl: 5 Sep 2021
 midb: '7,4'

@@ -7,7 +7,7 @@ cover1: https://dash.fembed.com/asset/userdata/404660/poster/6/1m/61m8dyh02qn76e
 movie1: https://androidbutut.my.id/jungle-cruise/
 movie: https://daffa-adr.my.id/v/61m8dyh02qn76ep7
 dl: https://daffa-adr.my.id/f/61m8dyh02qn76ep7
-res: HD
+res: HD1080
 color: primary
 tgl: 28 July 2021
 midb: '6,6'
