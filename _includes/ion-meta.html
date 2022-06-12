@@ -4,6 +4,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
     <meta name="yandex-verification" content="9e648d83131164e7" />
     {% include favicon.html %}
+    <meta property="url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}"/>
+    <meta name="author" content="{{ site.name }}" />
     {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt| strip_html }}" />
     <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
@@ -11,7 +13,6 @@
     <meta name="description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
-    <meta name="author" content="{{ site.name }}" />
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
