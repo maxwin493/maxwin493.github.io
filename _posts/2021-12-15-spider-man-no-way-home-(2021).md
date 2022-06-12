@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spider-Man - No Way Home (2021)
-dur: 
+dur: 120M1680S
 img: https://androidbutut.my.id/spiderman-nowayhome/img/spiderman-nwh.jpg
 cover1: https://dash.fembed.com/asset/userdata/404660/poster/4/xr/4xry65izq-jr-03y.png?v=1654149539
 movie1: https://short.ink/TT_20yRmt

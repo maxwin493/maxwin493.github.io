@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jungle Cruise (2021)
-dur: 
+dur: 120M420S
 img: https://lumiere-a.akamaihd.net/v1/images/p_junglecruise_21740_v2_bb7f0ae4.jpeg
 cover1: https://dash.fembed.com/asset/userdata/404660/poster/6/1m/61m8dyh02qn76ep7.png?v=1654487336
 movie1: https://androidbutut.my.id/jungle-cruise/

@@ -12,7 +12,7 @@
             <ion-label>2021</ion-label>
           </ion-segment-button>
           <ion-segment-button class="tabsegment" value="2020" onclick="openTaun(event, '2020')">
-            <ion-label>2019</ion-label>
+            <ion-label>Oldest</ion-label>
           </ion-segment-button>
         </ion-segment>
           </ion-header>
@@ -38,6 +38,6 @@ function openTaun(evt, taunName) {
     {% include 2021.html %}
           </ion-content>
           <ion-content id="2020" fullscreen scroll-y="true" class="segment" style="display:none">
-    {% include 2019.html %}
+    {% include oldest.html %}
           </ion-content>
         </ion-tab>

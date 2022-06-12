@@ -1,22 +1,52 @@
+- title: Dune
+  img: https://androidbutut.my.id/the-dune/img/the-dune.jpg
+  movie: https://daffa-adr.my.id/v/nz71lkh2nkz-klrr
+  categories: Action, Adventure, Drama, Sci-Fi
+
 - title: Spider-Man - No Way Home
   img: https://androidbutut.my.id/spiderman-nowayhome/img/spiderman-nwh.jpg
   movie: https://daffa-adr.my.id/v/4xry65izq-jr-03y
   categories: Action, Adventure, Fantasy, Sci-Fi
+
+- title: Hitman's Wife's Bodyguard
+  img: https://media.pathe.nl/nocropthumb/620x955/gfx_content/other/api/filmdepot/v1/movie/download/28546_137087_ps_sd-high.jpg
+  movie: https://daffa-adr.my.id/v/xm08q-a57xlqr1pw
+  categories: Action, Comedy, Crime
 
 - title: Red Notice
   img: https://androidbutut.my.id/red-notice-2021/img/red-notice.jpg
   movie: https://daffa-adr.my.id/v/61m8dyh02qlpp2x6
   categories: Action, Comedy, Thriller
 
+- title: Shang-Chi and the Legend of the Ten Rings
+  img: https://androidbutut.my.id/shang-chi/img/shang-chi.jpg
+  movie: https://daffa-adr.my.id/v/3kqe4xum10ry6-g-
+  categories: Action, Adventure, Fantasy, Sci-Fi
+
 - title: Venom - Let There Be Carnage
   img: https://androidbutut.my.id/venom-2/img/venom-2.jpg
   movie: https://daffa-adr.my.id/v/jzwd20hdy730-ynx
   categories: Action, Adventure, Sci-Fi, Thriller
 
+- title: Free Guy
+  img: https://lumiere-a.akamaihd.net/v1/images/p_20cs_freeguy_homeent_21930_49e74453.jpeg?region=0%2C0%2C540%2C810
+  movie: https://daffa-adr.my.id/v/e50-p3c-mdz0rn70
+  categories: Action, Adventure, Comedy, Fantasy, Sci-Fi
+
 - title: Shang-Chi and the Legend of the Ten Rings
   img: https://androidbutut.my.id/shang-chi/img/shang-chi.jpg
   movie: https://daffa-adr.my.id/v/3kqe4xum10ry6-g-
   categories: Action, Adventure, Fantasy, Sci-Fi
+
+- title: Jungle Cruise
+  img: https://lumiere-a.akamaihd.net/v1/images/p_junglecruise_21740_v2_bb7f0ae4.jpeg
+  movie: https://daffa-adr.my.id/v/61m8dyh02qn76ep7
+  categories: Action, Adventure, Comedy, Fantasy
+
+- title: F9 Fast & Furious 9
+  img: https://static.onecms.io/wp-content/uploads/sites/20/2020/01/ff9.jpg
+  movie: https://daffa-adr.my.id/v/e50-p3c-mdnlyqg-
+  categories: Action, Crime, Thriller
 
 - title: Escape Room- Tournament of Champions
   img: https://androidbutut.my.id/escape-room-2021/img/Escape-Room-3.webp

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Death Race - Beyond Anarchy (2018)
-dur: 
+dur: 60M3060S
 img: https://images-na.ssl-images-amazon.com/images/S/pv-target-images/6bca2bb04195bc6a6102fe44bb10ad7c0f9fc751d96c22f5a6e376fc318e9f58._RI_V_TTW_.jpg
 cover1: https://dash.fembed.com/asset/userdata/404660/poster/w/0d/w0dxq-iny0738xm1.png?v=1654648781
 movie1: https://androidbutut.my.id/death-race-2018/

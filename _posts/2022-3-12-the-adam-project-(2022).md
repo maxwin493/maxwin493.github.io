@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Adam Project (2022)
+dur: 60M2760S
 img: https://www.layar.id/wp-content/uploads/2022/03/The-Adam-Project.jpg
 cover1: https://dash.fembed.com/asset/userdata/404660/poster/6/1m/61m8dyh02-xe-z05.png?v=1654125815
 movie1: https://short.ink/9WPRP4PnW

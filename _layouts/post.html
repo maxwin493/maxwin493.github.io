@@ -3,14 +3,28 @@ layout: posting
 permalink: /nonton/
 ---
 
-<article class="post">
-  <div class="entry">
+<ion-card class="post">
+  <ion-card-content class="entry">
     {{ content }}
-  </div>
+  </ion-card-content>
+</ion-card>
 
-  <ion-note color="secondary">
-    Post on {{ page.date | date_to_string }}
+        <ion-list>
+          <ion-list-header> Bintang Film </ion-list-header>
+            {% for as in page.cast %}
+          <ion-item>
+            <ion-avatar slot="start">
+              <img src="{{ as.ava }}" />
+            </ion-avatar>
+            <ion-label>
+              <h2>{{as.nama}}</h2>
+              <h4>pemeran {{as.sebagai}}</h4>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+            {% endfor %}
+  <ion-note color="secondary" style="margin:15px">
+    Release date {{ page.date | date_to_string }}
   </ion-note>
 
   {% include disqus.html %}
-</article>
