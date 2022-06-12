@@ -5,9 +5,9 @@ name: DAFFtube
 
 description: MovieStream from NoWhere
 
-poster: /assets/img/dafftube.webp
+poster: /assets/images/dafftube.png
 
-avatar: /assets/img/logo-img.webp
+avatar: /assets/images/logo_img.png
 
 iklanVideo: https://www.youtube.com/embed/r0OnstvpjHQ
 

@@ -2,7 +2,6 @@
 <html>
   <head>
     {% include ion-head.html %}
-<style>.popover-content{left:190px!important}</style>
     <script type="module">
       import { popoverController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
       window.popoverController = popoverController;
@@ -71,8 +70,7 @@
         </ion-toolbar>
      </ion-modal-header>
     <ion-content class="ion-padding">
-<p>Masih Di grepe</p>
-<img src="/assets/images/404.jpg" style="width:300px;display:block;margin:auto;"/>
+<img src="{{page.img}}" style="width:300px;display:block;margin:auto;"/>
 </ion-content>
   </ion-modal>
     </ion-app>
