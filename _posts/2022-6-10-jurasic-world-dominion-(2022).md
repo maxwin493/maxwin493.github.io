@@ -10,7 +10,7 @@ dl: https://daffa-adr.my.id/f/z6-nqyijq35151mz
 res: HD1080
 color: primary
 tgl: 10 Jun 2022
-midb: 6,0/10
+midb: 6,0
 tags: [2022]
 categories: [Adventure, thriller, Sci-Fi]
 director: Colin Trevorrow
