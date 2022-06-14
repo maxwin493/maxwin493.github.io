@@ -8,7 +8,7 @@ permalink: /nonton/
     {{ content }}
   </ion-card-content>
 </ion-card>
-
+<ion-card>
         <ion-list>
           <ion-list-header> Bintang Film </ion-list-header>
             {% for as in page.cast %}
@@ -23,8 +23,11 @@ permalink: /nonton/
           </ion-item>
         </ion-list>
             {% endfor %}
+  <ion-card-content>
   <ion-note color="secondary" style="margin:15px">
     Release date {{ page.date | date_to_string }}
   </ion-note>
+  </ion-card-content>
+</ion-card>
 
   {% include disqus.html %}

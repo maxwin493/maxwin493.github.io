@@ -2,17 +2,53 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+  {% for item in site.posts %}
+	<ion-card class="border-card">
+<ion-grid v-for="(item, index) in data" style="padding:0;">
+			<ion-row class="first-row">
+				<div class="company">
+					{{ item.title }}
+					<br />
+					<span class="model">
+						{{ item.actor }}
+					</span>
+				</div>
+                <div class="img-linear"></div>
+				<div class="img" style="background-image:url({{item.cover1}})" ></div>
+			</ion-row>
+			<ion-row class="second-row">
+				<ion-col>
+					<div class="label">MIDB Rate</div>
+					<div class="value">
+					<ion-icon color="warning" name="star"></ion-icon> {{ item.midb }}
+						<span class="unit">
+							/10
+						</span>
+					</div>
+				</ion-col>
+				<ion-col>
+					<div class="label">Durasi</div>
+					<div class="value">
+						{{ item.dur }} 
+						<span class="unit">
+							
+						</span>
+					</div>
+				</ion-col>
+				<ion-col>
+					<div class="label">Resolusi</div>
+					<div class="value">
+						{{ item.res }}
+					</div>
+				</ion-col>
+				<ion-list lines="none" style="background-color:white;float:right">
+                    <ion-buttons slot="end">
+                        <ion-button onclick="pageVideo{{forloop.index}}()">
+                            <ion-icon color="success" slot="icon-only" name="play-circle"></ion-icon>
+                        </ion-button>
+                    </ion-buttons>
+				</ion-list>
+			</ion-row>
+		</ion-grid>
+	</ion-card>
   {% endfor %}
-</div>
