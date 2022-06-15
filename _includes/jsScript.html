@@ -1,47 +1,18 @@
 <script src="{{ site.baseurl }}/assets/js/dark.js"></script>
             {% for item in site.posts %}
 <script>
-function pageVideo{{forloop.index}}() {
-  location.replace("{{site.baseurl}}{{item.url}}")
-}
-</script>
-<script>
-function backHome() {
-  location.replace("{{site.baseurl}}/")
-}
+function pageVideo{{forloop.index}}(){location.replace("{{site.baseurl}}{{item.url}}")}
+function backHome(){location.replace("{{site.baseurl}}/")}
 </script>
             {% endfor %}
-            {% if page.layout == 'post' %}
-<script>
-var elem = document.getElementById("fullscreen");
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE11 */
-    elem.msRequestFullscreen();
-  }
-}
+            {% if page.url contains '/nonton/' %}
+<script type="text/javascript">
+var elem=document.getElementById("fullscreen");function openFullscreen(){if(elem.requestFullscreen){elem.requestFullscreen()}else if(elem.webkitRequestFullscreen){elem.webkitRequestFullscreen()}else if(elem.msRequestFullscreen){elem.msRequestFullscreen()}}
 </script>
 <script>
-  const sheetModalChat = document.querySelector('#menuChat');
-  const appChat = document.querySelector('ion-app');
-
-  sheetModalChat.breakpoints = [0.0, 0.7, 0.7];
-  sheetModalChat.initialBreakpoint = 0.7;
-  
-async function dismissMe() {
-  await sheetModalChat.dismiss({
-    'dismissed': true
-  });
-}
+const sheetModalChat=document.querySelector('#menuChat');const appChat=document.querySelector('ion-app');sheetModalChat.breakpoints=[0.0,0.7,0.7];sheetModalChat.initialBreakpoint=0.7;async function dismissMe(){await sheetModalChat.dismiss({'dismissed':!0})}
 </script>
             {% endif %}
 <script>
-  if('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('{{ site.baseurl }}/sw.js')
-    })
-  }
+if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('{{ site.baseurl }}/sw.js')})}
 </script>

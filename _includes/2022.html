@@ -24,36 +24,21 @@
 </btn>
 </ion-item>
 <script>
- function playMe22{{forloop.index}}(play) {
-        var playBtn22{{forloop.index}} = document.getElementById('playBtn22{{forloop.index}}')
-        var stopBtn22{{forloop.index}} = document.getElementById('stopBtn22{{forloop.index}}')
-        var marq = document.getElementById('marq')
-
-        if(play) {
-            stopBtn22{{forloop.index}}.style.display = "block"
-            playBtn22{{forloop.index}}.style.display = "none"
-            marq.style.display = "block"
-        } else {
-            playBtn22{{forloop.index}}.style.display = "none"
-            stopBtn22{{forloop.index}}.style.display = "block"
-            marq.style.display = "none"
-        }
-    }
-
-function playMe22{{forloop.index}}(play) {
-    var playBtn22{{forloop.index}} = document.getElementById('playBtn22{{forloop.index}}')
-    var stopBtn22{{forloop.index}} = document.getElementById('stopBtn22{{forloop.index}}')
-    var marq = document.getElementById('marq')
-
-    if(play) {
-        stopBtn22{{forloop.index}}.style.display = "block"
-        playBtn22{{forloop.index}}.style.display = "none"
-        marq.style.display = "none"
-    } else {
-        stopBtn22{{forloop.index}}.style.display = "none"
-        playBtn22{{forloop.index}}.style.display = "block"
-        marq.style.display = "block"
-    }
-}
+function playMe22{{forloop.index}}(play){var playBtn22{{forloop.index}}=document.getElementById('playBtn22{{forloop.index}}')
+var stopBtn22{{forloop.index}}=document.getElementById('stopBtn22{{forloop.index}}')
+var marq=document.getElementById('marq')
+if(play){stopBtn22{{forloop.index}}.style.display="block"
+playBtn22{{forloop.index}}.style.display="none"
+marq.style.display="block"}else{playBtn22{{forloop.index}}.style.display="none"
+stopBtn22{{forloop.index}}.style.display="block"
+marq.style.display="none"}}
+function playMe22{{forloop.index}}(play){var playBtn22{{forloop.index}}=document.getElementById('playBtn22{{forloop.index}}')
+var stopBtn22{{forloop.index}}=document.getElementById('stopBtn22{{forloop.index}}')
+var marq=document.getElementById('marq')
+if(play){stopBtn22{{forloop.index}}.style.display="block"
+playBtn22{{forloop.index}}.style.display="none"
+marq.style.display="none"}else{stopBtn22{{forloop.index}}.style.display="none"
+playBtn22{{forloop.index}}.style.display="block"
+marq.style.display="block"}}
 </script>
         {% endfor %}
