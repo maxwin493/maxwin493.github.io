@@ -32,7 +32,7 @@ workbox.precaching.precacheAndRoute([
   { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
   {% endfor -%}
   { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
-  { url: '/nonton', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
+  { url: '/nonton/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
   { url: '/assets/css/style.css', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' }
 ])
 

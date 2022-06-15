@@ -35,9 +35,11 @@ kramdown:
 sass:
   style: :expanded
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sass-converter
 
 exclude:
   - Gemfile
