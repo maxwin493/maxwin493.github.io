@@ -31,6 +31,16 @@ function openTaun(evt, taunName) {
   evt.currentTarget.className += " active";
 }
 </script>
+<script>
+$(document).ready(function(){
+  $(".btn-nonactive").click(function(){
+    $("btn").hide();
+  });
+  $(".btn-active").click(function(){
+    $("btn").show();
+  });
+});
+</script>
           <ion-content id="2022" fullscreen scroll-y="true" class="segment">
     {% include 2022.html %}
           </ion-content>

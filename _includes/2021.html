@@ -8,16 +8,20 @@
               <h3 color="dark">{{post.title}}</h3>
               <p>{{post.categories}}</p>
             </ion-label>
+<ion-buttons class="btn-active">
 <ion-button color="danger" href="javascript: history.back()" onclick="playMe21{{forloop.index}}(false)" id="stopBtn21{{forloop.index}}" style="display:none">
   <ion-icon slot="start" name="stop"></ion-icon>
   <ion-label>Stop</ion-label>
 </ion-button>
-<ion-buttons>
-<ion-button color="success" href="{{post.movie}}" target="iframe" onclick="playMe21{{forloop.index}}(true)" id="playBtn21{{forloop.index}}">
+</ion-buttons>
+<btn>
+<ion-buttons class="btn-nonactive">
+<ion-button class="btn-active" color="success" href="{{post.movie}}" target="iframe" onclick="playMe21{{forloop.index}}(true)" id="playBtn21{{forloop.index}}" [{{post.stop}}]="buttonDisabled">
   <ion-icon slot="start" name="play"></ion-icon>
   <ion-label>Play</ion-label>
 </ion-button>
-<ion-buttons>
+</ion-buttons>
+</btn>
 </ion-item>
 <script>
  function playMe21{{forloop.index}}(play) {

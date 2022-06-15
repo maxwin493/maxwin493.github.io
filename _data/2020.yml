@@ -2,13 +2,15 @@
   img: 
   movie: 
   categories: 
+  stop: disabled
 
 - title: 
   img: 
   movie: 
   categories: 
-
+  stop: disabled
 - title: 
   img: 
   movie: 
   categories: 
+  stop: disabled
