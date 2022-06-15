@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "name": "DAFFtube",
-  "background_color": "light dark",
-  "theme_color": "laght dark",
+  "background_color": "#fff",
+  "theme_color": "#212121",
   "start_url": "/",
   "display": "standalone",
   "description": "Nonton Film Streaming",
