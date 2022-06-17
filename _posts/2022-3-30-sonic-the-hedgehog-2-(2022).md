@@ -4,7 +4,7 @@ title: Sonic the Hedgehog 2 (2022)
 dur: 120M120S
 img: https://cinemags.co.id/wp-content/uploads/2022/03/sonic-the-hedgehog-2-poster.jpg
 cover1: https://dash.fembed.com/asset/userdata/404660/poster/k/3n/k3n0lrb3xdjkz7lw.png?v=1654139599
-movie1: https://androidbutut.my.id/sonic-the-hedgehog-2/
+movie1: https://sendaljepit.b-cdn.net/sonic-the-hedgehog-2/
 movie: https://daffa-adr.my.id/v/k3n0lrb3xdjkz7lw
 dl: https://daffa-adr.my.id/f/k3n0lrb3xdjkz7lw
 res: HD1080

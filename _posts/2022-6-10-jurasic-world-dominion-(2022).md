@@ -2,9 +2,9 @@
 layout: post
 dur: 120M1560S
 title: Jurassic World Dominion (2022)
-img: https://androidbutut.my.id/jurasic-world-dominion/img/jwd.jpg
+img: https://sendaljepit.b-cdn.net/jurasic-world-dominion/img/jwd.jpg
 cover1: https://dash.fembed.com/asset/userdata/404660/poster/z/6-/z6-nqyijq35151mz.png?v=1655064428
-movie1: https://androidbutut.my.id/jurasic-world-dominion/
+movie1: https://sendaljepit.b-cdn.net/jurasic-world-dominion/
 movie: https://daffa-adr.my.id/v/z6-nqyijq35151mz
 dl: https://daffa-adr.my.id/f/z6-nqyijq35151mz
 res: HD1080

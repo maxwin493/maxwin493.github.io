@@ -2,9 +2,9 @@
 layout: post
 title: Jungle Cruise (2021)
 dur: 120M420S
-img: https://lumiere-a.akamaihd.net/v1/images/p_junglecruise_21740_v2_bb7f0ae4.jpeg
+img: https://sendaljepit.b-cdn.net/jungle-cruise/junglecruise.webp
 cover1: https://dash.fembed.com/asset/userdata/404660/poster/6/1m/61m8dyh02qn76ep7.png?v=1654487336
-movie1: https://androidbutut.my.id/jungle-cruise/
+movie1: https://sendaljepit.b-cdn.net/jungle-cruise/
 movie: https://daffa-adr.my.id/v/61m8dyh02qn76ep7
 dl: https://daffa-adr.my.id/f/61m8dyh02qn76ep7
 res: HD1080

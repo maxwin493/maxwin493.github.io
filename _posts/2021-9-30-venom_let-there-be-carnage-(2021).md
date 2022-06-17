@@ -2,7 +2,7 @@
 layout: post
 title: Venom - Let There Be Carnage (2021)
 dur: 60M2220S
-img: https://androidbutut.my.id/venom-2/img/venom-2.jpg
+img: https://sendaljepit.b-cdn.net/venom-2/img/venom-2.jpg
 cover1: https://dash.fembed.com/asset/userdata/404660/poster/j/zw/jzwd20hdy730-ynx.png?v=1654181138
 movie1: https://short.ink/4liR5UwuD
 movie: https://daffa-adr.my.id/v/jzwd20hdy730-ynx
