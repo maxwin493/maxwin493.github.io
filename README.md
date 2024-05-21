@@ -1,3 +1,3 @@
-### [Nonton Film Terbaru](https://server.daffadev.my.id)
+### [Nonton Film Terbaru](https://7897git.github.io)
 
 Jekyll Movie Template, Using ionicframeworks.
