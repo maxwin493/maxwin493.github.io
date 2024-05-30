@@ -19,6 +19,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4'
   gem 'jekyll-sass-converter', '~> 2.2'
   gem 'jekyll-seo-tag', '~> 2.8'
+  gem 'webrick'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
