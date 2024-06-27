@@ -5,7 +5,7 @@ function pageVideo{{forloop.index}}(){location.replace("{{site.baseurl}}{{item.u
 function backHome(){location.replace("{{site.baseurl}}/ID-id/")}
 </script>
             {% endfor %}
-            {% if page.url contains '/ID-id/' %}
+            {% if page.url contains '/ID-id/home' %}
 <script type="text/javascript">
 var elem=document.getElementById("fullscreen");function openFullscreen(){if(elem.requestFullscreen){elem.requestFullscreen()}else if(elem.webkitRequestFullscreen){elem.webkitRequestFullscreen()}else if(elem.msRequestFullscreen){elem.msRequestFullscreen()}}
 </script>
