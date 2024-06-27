@@ -38,14 +38,14 @@ sass:
 # Google Auth
 WA_KEY: 085156416662
 SITE_KEY: 6Lf8BdkpAAAAAElS8xJWvKYvFtTvIBMD3GKQn0sz
-API_KEY: AIzaSyCh346K5NgNSvVq6Mv817GH_E6cPDurR2s
-AUTH_DOMAIN: plus62bordir.firebaseapp.com
-DATABASE_URL: https://plus62bordir-default-rtdb.asia-southeast1.firebasedatabase.app
-PROJECT_ID: plus62bordir
-STORAGE_BUCKET: plus62bordir.appspot.com
-SENDER_ID: 787412546935
-APP_ID: 1:787412546935:web:919338bbff32eada8cdd72
-MEASUREMENT_ID: G-C082YPREP9
+API_KEY: AIzaSyDUdcJBi_Hq9MqAnpuTLw6V5PG0lH_LjII
+AUTH_DOMAIN: bb493bet.firebaseapp.com
+DATABASE_URL: https://bb493bet-default-rtdb.asia-southeast1.firebasedatabase.app
+PROJECT_ID: bb493bet
+STORAGE_BUCKET: bb493bet.appspot.com
+SENDER_ID: 440942965677
+APP_ID: 1:440942965677:web:ebb8e9d6cb8485c4bd2724
+MEASUREMENT_ID: G-DE7LW4W8KJ
 
 plugins:
   - jekyll-sitemap
