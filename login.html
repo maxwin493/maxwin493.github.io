@@ -11,10 +11,23 @@ permalink : /
 <ion-app>
 	
 	<ion-content>
-		<img src="https://img.freepik.com/free-icon/google_318-278809.jpg" />
-            <h2>Sign In</h2>
-            <p>Untuk melanjutkan silahkan Sign in dengan akun google anda.</p>
-			<p><ion-button class="btn_login" id="sign-in-button" color="primary" style="margin-top:10px;"><ion-icon slot="start" name="logo-google"></ion-icon> Sign In</ion-button>
+<ion-card class="loginPage" class="ion-padding">
+<ion-card-header>
+        <ion-avatar class="margin-center">
+          <img src="https://img.freepik.com/free-icon/google_318-278809.jpg" ></img>
+        </ion-avatar>
+<ion-label>
+<h1 class="text-login">Sign In</h1>
+</ion-label>
+<ion-label>
+<h3 class="text-kecil">Untuk melanjutkan silahkan Sign in dengan akun google anda.</h3>
+</ion-label>
+</ion-card-header>
+<ion-card-conten class="ion-padding">
+<ion-button expand="block" id="sign-in-button"><ion-icon slot="start" name="logo-google">Sign In</ion-button>
+</ion-card-conten>
+</ion-card>
+		
 	</ion-content>
             
 </ion-app>
