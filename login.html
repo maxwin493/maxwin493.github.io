@@ -31,8 +31,8 @@ permalink : /
             
 </ion-app>
 <div class="g-recaptcha"
-      data-sitekey="{{ site.API_KEY }}"
-      data-callback="onSubmit"
+      data-sitekey="{{ site.SITE_KEY }}"
+      data-callback="sign-in-button"
       data-size="invisible">
 </div>
   </body>
@@ -40,9 +40,7 @@ permalink : /
 	.loginPage{max-width:450px;width:90%;margin:auto;height:350px;margin-top:6%;padding:10%}.text-login{text-align:center;margin-top:20px!important;margin-bottom:20px!important}.margin-center,.text-center{margin:auto}@media screen and (max-width:747px){.loginPage{margin-top:25%;padding:5%}}.margin-center{margin:auto;}
 </style>
  <script>
-   function onSubmit(token) {
-     document.getElementById("demo-form").submit();
-   }
+   grecaptcha.execute();
  </script>
 <script type="module">
     const firebaseConfig = {
