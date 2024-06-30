@@ -27,7 +27,7 @@ permalink : /
 	<p></p>
 	<p id="demo"></p>
 <ion-button expand="block" id="sign-in-button" style="display:block;"> Sign In</ion-button>
-	<ion-progress-bar style="display:none;" id="loader"></ion-progress-bar>
+	<ion-progress-bar class="preloader" id="loader"></ion-progress-bar>
 </ion-card-conten>
 </ion-card>
 	</ion-content>
@@ -72,16 +72,11 @@ function myFunction() {
 }
 </script>
 <script>
-var myVar;
-
-function myLoader() {
-  myVar = showPage;
-}
-
-function showPage() {
-  document.getElementById("sign-in-button").style.display = "none";
-  document.getElementById("loader").style.display = "block";
-}
+    //after window is loaded completely 
+    window.onload = function(){
+        //hide the preloader
+        document.querySelector(".preloader").style.display = "none";
+    }
 </script>
 <script type="module">
     const firebaseConfig = {
