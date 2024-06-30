@@ -3,7 +3,16 @@ layout: default
 permalink: /ID-id/home
 ---
 
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+</style>
 
+<div class="grid-container">
   {% for item in site.posts %}
 	<ion-card class="border-card">
 <ion-grid v-for="(item, index) in data" style="padding:0;">
@@ -54,3 +63,4 @@ permalink: /ID-id/home
 		</ion-grid>
 	</ion-card>
   {% endfor %}
+</div>
