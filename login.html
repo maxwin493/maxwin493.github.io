@@ -7,7 +7,7 @@ permalink : /
   <head>
     {% include ion-head.html %}
   </head>
-  <body onloadeddata="myFunction()">
+  <body onload="myLoader()">
 <ion-app>
 	
 	<ion-content>
@@ -26,7 +26,8 @@ permalink : /
 <ion-card-conten class="ion-padding">
 	<p></p>
 	<p id="demo"></p>
-<ion-button expand="block" id="sign-in-button"> Sign In</ion-button>
+<ion-button expand="block" id="sign-in-button" style="display:block;"> Sign In</ion-button>
+	<ion-progress-bar style="display:none;" id="loader"></ion-progress-bar>
 </ion-card-conten>
 </ion-card>
 	</ion-content>
@@ -67,7 +68,19 @@ permalink : /
   }, 1000);
 
 function myFunction() {
-  document.getElementById("demo").innerHTML = "<ion-progress-bar></ion-progress-bar>";
+  document.getElementById("demo").innerHTML = "";
+}
+</script>
+<script>
+var myVar;
+
+function myLoader() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("sign-in-button").style.display = "none";
+  document.getElementById("loader").style.display = "block";
 }
 </script>
 <script type="module">
