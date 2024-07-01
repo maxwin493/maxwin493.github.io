@@ -1,8 +1,8 @@
 ---
 layout: post
 dur: 120M1560S
-title: Jurassic World Dominion (2022)
-img: https://sendaljepit.b-cdn.net/jurasic-world-dominion/img/jwd.jpg
+title: Pragmatic Play
+img: https://assets.jamaldoyanbool.com/images/thumbnail/PRAG/vs20olympgate.webp
 cover1: https://dash.fembed.com/asset/userdata/404660/poster/z/6-/z6-nqyijq35151mz.png?v=1655064428
 movie1: https://www.xnxx.com/embedframe/udvcceo2095
 movie: https://www.xnxx.com/embedframe/udvcceo2095
