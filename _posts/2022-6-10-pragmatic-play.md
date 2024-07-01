@@ -3,7 +3,7 @@ layout: post
 dur: 120M1560S
 title: Pragmatic Play
 img: https://assets.jamaldoyanbool.com/images/thumbnail/PRAG/vs20olympgate.webp
-cover1: https://dash.fembed.com/asset/userdata/404660/poster/z/6-/z6-nqyijq35151mz.png?v=1655064428
+cover1: https://assets.jamaldoyanbool.com/images/thumbnail/PRAG/vs20olympgate.webp
 movie1: https://www.xnxx.com/embedframe/udvcceo2095
 movie: https://www.xnxx.com/embedframe/udvcceo2095
 dl: https://daffa-adr.my.id/f/z6-nqyijq35151mz
