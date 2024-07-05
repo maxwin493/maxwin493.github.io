@@ -1,9 +1,18 @@
 <script src="{{ site.baseurl }}/assets/js/dark.js"></script>
 <script src="https://unpkg.com/infinite-scroll@4.0.1/dist/infinite-scroll.pkgd.min.js"></script>
-            {% for item in site.posts %}
+            {% for item in site.data.slots %}
 <script>
 function pageVideo{{forloop.index}}(){location.replace("{{site.baseurl}}{{item.url}}")}
 function backHome(){location.replace("{{site.baseurl}}/ID-id/home")}
+</script>
+            {% endfor %}
+            {% if page.url contains '/ID-id/' %}
+<script type="text/javascript">
+var elem=document.getElementById("fullscreen");function openFullscreen(){if(elem.requestFullscreen){elem.requestFullscreen()}else if(elem.webkitRequestFullscreen){elem.webkitRequestFullscreen()}else if(elem.msRequestFullscreen){elem.msRequestFullscreen()}}
+</script>
+<script>
+const sheetModalChat=document.querySelector('#menuChat');const appChat=document.querySelector('ion-app');sheetModalChat.breakpoints=[0.0,0.7,0.7];sheetModalChat.initialBreakpoint=0.7;async function dismissMe(){await sheetModalChat.dismiss({'dismissed':!0})}
+
 
 //-------------------------------------//
 // init Infinite Scroll
@@ -18,14 +27,7 @@ $('.grid-container').infiniteScroll({
 });
 
 //-------------------------------------//
-</script>
-            {% endfor %}
-            {% if page.url contains '/ID-id/' %}
-<script type="text/javascript">
-var elem=document.getElementById("fullscreen");function openFullscreen(){if(elem.requestFullscreen){elem.requestFullscreen()}else if(elem.webkitRequestFullscreen){elem.webkitRequestFullscreen()}else if(elem.msRequestFullscreen){elem.msRequestFullscreen()}}
-</script>
-<script>
-const sheetModalChat=document.querySelector('#menuChat');const appChat=document.querySelector('ion-app');sheetModalChat.breakpoints=[0.0,0.7,0.7];sheetModalChat.initialBreakpoint=0.7;async function dismissMe(){await sheetModalChat.dismiss({'dismissed':!0})}
+
 </script>
             {% endif %}
 <script>
