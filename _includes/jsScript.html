@@ -2,7 +2,7 @@
 <script src="https://unpkg.com/infinite-scroll@4.0.1/dist/infinite-scroll.pkgd.min.js"></script>
             {% for item in site.data.slots %}
 <script>
-function pageVideo{{forloop.index}}(){location.replace("{{site.baseurl}}{{item.url}}")}
+function pageSlots{{forloop.index}}(){location.replace("{{site.baseurl}}{{item.url}}")}
 function backHome(){location.replace("{{site.baseurl}}/ID-id/home")}
 </script>
             {% endfor %}
