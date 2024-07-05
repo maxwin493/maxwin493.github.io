@@ -18,5 +18,8 @@
 <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
 <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
 
+{% if page.url contains '/404/' %}
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/404.css" />
+{% endif %}
 
     <!-- Created with Jekyll -->
