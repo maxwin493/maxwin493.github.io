@@ -41,3 +41,15 @@ $('.grid-container').infiniteScroll({
 <script>
 if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('{{ site.baseurl }}/sw.js')})}
 </script>
+<script>
+var myVar;
+
+function myLoader() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
