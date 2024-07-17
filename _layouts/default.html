@@ -9,7 +9,7 @@ permalink: /ID-id/home
   </head>
   <body onload="myLoader()">
         <ion-app>
-<ion-loading id="spinner" message="Loading..." [duration]="3000" spinner="circles"></ion-loading>
+  <ion-spinner id="loader" name="lines"></ion-spinner>
           <div style="display:none;" id="myDiv">
     {% include tab-content.html %}
           </div>
