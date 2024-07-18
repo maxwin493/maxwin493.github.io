@@ -142,7 +142,7 @@ body.dark {
 }
 
 /* Optional CSS, this is added for the flashing that happens when toggling between themes */
-ion-item {
+ion-item.dark {
   --transition: none;
 }
 html.dark {
