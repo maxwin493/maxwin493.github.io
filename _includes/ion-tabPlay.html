@@ -24,13 +24,13 @@ document.getElementById(taunName).style.display="block";evt.currentTarget.classN
 <script>
 $(document).ready(function(){$(".btn-nonactive").click(function(){$("btn").hide()});$(".btn-active").click(function(){$("btn").show()})})
 </script>
-          <ion-content id="pragmatic" fullscreen scroll-y="true" class="segment">
+          <ion-content id="pragmatic" fullscreen="true" scroll-y="true" class="segment">
     {% include pragmatic.html %}
           </ion-content>
-          <ion-content id="pgsoft" fullscreen scroll-y="true" class="segment" style="display:none">
+          <ion-content id="pgsoft" fullscreen="true" scroll-y="true" class="segment" style="display:none">
     {% include 2021.html %}
           </ion-content>
-          <ion-content id="classic" fullscreen scroll-y="true" class="segment" style="display:none">
+          <ion-content id="classic" fullscreen="true" scroll-y="true" class="segment" style="display:none">
     {% include oldest.html %}
           </ion-content>
         </ion-tab>
