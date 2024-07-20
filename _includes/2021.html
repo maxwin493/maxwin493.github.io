@@ -1,12 +1,12 @@
 
-        {% for post in site.data.2021 %}
+        {% for post in site.data.pgsoft %}
         <ion-item>
             <ion-avatar slot="start">
               <img src="{{post.img}}" />
             </ion-avatar>
             <ion-label>
               <h3 color="dark">{{post.title}}</h3>
-              <p>{{post.categories}}</p>
+              <p>RTP {{post.categories}}</p>
             </ion-label>
 <ion-buttons class="btn-active">
 <ion-button color="danger" href="javascript: history.back()" onclick="playMe21{{forloop.index}}(false)" id="stopBtn21{{forloop.index}}" style="display:none">
