@@ -1,11 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "DAFFtube",
+  "name": "Demo Slot",
   "background_color": "#fff",
   "theme_color": "#212121",
   "start_url": "/",
   "display": "standalone",
-  "description": "Nonton Film Streaming",
+  "description": "Slot Demo Gacor",
   "icons": [{
     "src": "/assets/favicon/maskable_icon.png",
     "sizes":"any",
